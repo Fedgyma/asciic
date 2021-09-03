@@ -22,6 +22,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 
 int
 main(int argc, char **argv)
@@ -41,6 +42,11 @@ main(int argc, char **argv)
 
 	in_name = argv[1];
 	out_name = argv[2];
+
+	if (access(in_name, F_OK) != 0) {
+		printf("ERROR: file doesn't exist\n");
+		return 1;
+	}	
 	
 	fd_in = fopen(in_name, "r");
 	fd_out = fopen(out_name, "w");
