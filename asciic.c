@@ -1,5 +1,5 @@
 /*
-    asciic: create c header file with initialized string from text file
+    asciic: create c header file with initialized string from text file.
     Copyright (C) 2021 Fedgyma https://github.com/Fedgyma
 
     This program is free software: you can redistribute it and/or modify
@@ -15,7 +15,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
     
-    feel free to contact me at fedgyma@gmail.com
+    Feel free to contact myself at fedgyma@gmail.com
 */
 
 
